@@ -17,3 +17,6 @@ let decryptedData = decipher.update(str1, "hex", "utf-8");
 decryptedData += decipher.final("utf8");
 return decryptedData;
 }
+module.exports={
+    encryption,decryption
+}
